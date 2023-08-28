@@ -1,0 +1,36 @@
+.red-bordered-button {
+  padding: 10px 20px;
+  border: 1.5px solid var(--primary-color);
+  border-radius: 20px;
+  background-color: white;
+  color: var(--primary-color);
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 18px;
+  font-weight: 400;
+  height: fit-content;
+}
+
+.red-bordered-button:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.red-button {
+  padding: 8px 20px;
+  border: 1.5px solid var(--primary-color);
+  border-radius: 20px;
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.red-button:hover {
+  background-color: white;
+  color: var(--primary-color);
+}
